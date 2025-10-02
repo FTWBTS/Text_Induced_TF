@@ -1,5 +1,7 @@
+# 忽略所有文件和文件夹
 /*
 
+# 保留特定的文件夹和文件
 !/data_provider/**
 !/exp/**
 !/layers/**
@@ -9,4 +11,9 @@
 
 !/run.py
 !/.gitignore
-!/README.md
+
+# 忽略编译缓存和临时文件
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+**/*.ipynb_checkpoints/
