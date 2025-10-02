@@ -2,18 +2,12 @@
 /*
 
 # 保留特定的文件夹和文件
-!/data_provider/**
-!/exp/**
-!/layers/**
-!/models/**
-!/scripts/**
-!/utils/**
+!data_provider/**
+!exp/**
+!layers/**
+!models/**
+!scripts/**
+!utils/**
 
-!/run.py
-!/.gitignore
-
-# 忽略编译缓存和临时文件
-**/__pycache__/
-**/*.pyc
-**/.DS_Store
-**/*.ipynb_checkpoints/
+!run.py
+!.gitignore
